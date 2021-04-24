@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETO 3</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form>
+      <div>
+        <label for="nombre">Nombre</label> <br>
+        <input type="text" id="nombre" required pattern="[A-Za-z]+" />
+      </div>
+      <div>
+        <label for="apellido" >Apellido</label><br>
+        <input type="text" id="apellido" required pattern="[A-Za-z]+" />
+      </div>
+
+      <div>
+        <label for="edad">Edad</label><br>
+        <input type="number" id="edad" required min="18" max="80"/>
+      </div>
+
+      <div>
+        <label for="sexo">Sexo</label><br>
+        <label for="m">Masculino</label>
+        <input type="radio" name="radio" id="m" />
+        <label for="m">Femenino</label>
+        <input type="radio" name="radio" id="f" />
+      </div>
+
+      <div>
+        <label for="dni">Dni</label><br>
+        <input type="text" id="dni"  required  pattern="[A-Za-z0-9]+" maxlength="8"/>
+      </div>
+
+      <div>
+        <label for="email">Email</label><br>
+        <input type="email" />
+      </div>
+
+      <div>
+          <input type="submit" value="Enviar Datos">
+      </div>
+    </form>
+    
+    <a href="/index.html">IR A INICIO</a>
+    
+
+
+
+</body>
+</html>
