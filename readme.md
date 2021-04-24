@@ -13,3 +13,4 @@ Al no validar un formulario se tienen los siguientes problemas:
 
 ¿Cuáles son los beneficios?
 El sistema comprueba que los datos ingresados sean los correctos, mejorando la presición de los datos y eliminando los errores de entrada.
+
